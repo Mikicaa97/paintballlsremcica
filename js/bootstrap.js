@@ -4430,6 +4430,9 @@
   exports.Tooltip = Tooltip;
 
   Object.defineProperty(exports, '__esModule', { value: true });
-
+// MDB Lightbox Init
+$(function () {
+  $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  });
 }));
 //# sourceMappingURL=bootstrap.js.map

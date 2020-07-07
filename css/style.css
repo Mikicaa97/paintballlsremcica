@@ -72,13 +72,13 @@
 }
 
 .header ul {
-  background-color: rgba(73, 73, 73, 0.562);
+  background-color: rgba(104, 104, 104, 0.493);
   margin-top: 6%;
   padding: 1%;
 }
 
 .nav-item a {
-  color: #000;
+  color: #331f0a;
 }
 
 .textslika {
@@ -92,6 +92,7 @@
 }
 
 .textslika p {
+  text-align: justify;
   font-size: 18px;
 }
 
@@ -129,6 +130,10 @@
   margin-top: 2%;
 }
 
+.infosve p {
+  text-align: justify;
+}
+
 .infosve a {
   background-color: #f28b24;
   border: 1px solid #fff;
@@ -159,6 +164,7 @@
 }
 
 .textslika1 p {
+  text-align: justify;
   font-size: 18px;
 }
 
@@ -197,7 +203,7 @@
 .infosve1 {
   width: 100%;
   color: #f28b24;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 .infosve1 div {
@@ -206,12 +212,17 @@
 }
 
 .infosve1 h5 {
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.infosve1 b {
+  color: #000;
 }
 
 .cenaindex {
   width: 80%;
   margin: 0px auto;
+  margin-top: 3%;
 }
 
 .cenaindex img {
@@ -224,7 +235,6 @@
 }
 
 .infosve2 {
-  margin-top: 5%;
   color: #f28b24;
   line-height: 70px;
 }
@@ -247,6 +257,179 @@
 
 .infosve2 h5 {
   font-size: 25px;
+}
+
+.textslikarodj {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.textslikarodj h5 {
+  color: #f28b24;
+  font-size: 25px;
+}
+
+.textslikarodj p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.textslikarodj div {
+  border: none;
+}
+
+.textslikarodj .prvi {
+  float: left;
+  width: 50%;
+  padding: 4%;
+}
+
+.textslikarodj .prvi a {
+  font-size: 25px;
+  background-color: #f28b24;
+  border: 1px solid #c2c2c2;
+}
+
+.textslikarodj .prvi a:hover {
+  background-color: #fc6203;
+}
+
+.textslikarodj .drugi {
+  float: right;
+  width: 50%;
+  padding: 4%;
+  margin-top: 7%;
+}
+
+.textslikarodj .drugi img {
+  height: 500px;
+}
+
+.galerija {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.team1 {
+  background-image: url("../img/team4.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 1500px;
+  background-size: cover;
+  margin-top: -2%;
+}
+
+.team1 .infosve1 {
+  width: 100%;
+  color: #f28b24;
+}
+
+.team1 .infosve1 div {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.team1 .infosve1 b {
+  color: #fff;
+}
+
+.team1 .textslikarodj1 {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.team1 .textslikarodj1 h5 {
+  color: #f28b24;
+  font-size: 25px;
+}
+
+.team1 .textslikarodj1 p {
+  text-align: justify;
+  font-size: 18px;
+  color: #fff;
+}
+
+.team1 .textslikarodj1 div {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.team1 .textslikarodj1 .prvi {
+  float: left;
+  width: 50%;
+  padding: 4%;
+}
+
+.team1 .textslikarodj1 .prvi a {
+  font-size: 25px;
+  background-color: #f28b24;
+  border: 1px solid #c2c2c2;
+}
+
+.team1 .textslikarodj1 .prvi a:hover {
+  background-color: #fc6203;
+}
+
+.team1 .textslikarodj1 .drugi {
+  float: right;
+  width: 50%;
+  padding: 4%;
+  margin-top: 7%;
+}
+
+.team1 .textslikarodj1 .drugi img {
+  height: 500px;
+}
+
+.ptextteam {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.ptextteam h5 {
+  font-size: 40px;
+  margin-top: 15%;
+  color: #fff;
+  margin-bottom: 7%;
+}
+
+.ptextteam p {
+  color: #fff;
+  font-size: 22px;
+}
+
+.onamasve {
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: justify;
+}
+
+.onamasve h5 {
+  font-size: 30px;
+}
+
+.onamasve .onamasve1 {
+  margin-left: 4%;
+}
+
+.onamasve .onamasve1 a {
+  background-color: #f28b24;
+  border: 1px solid #c2c2c2;
+}
+
+.onamasve .onamasve1 a:hover {
+  background-color: #fc6203;
+}
+
+form {
+  padding: 6%;
 }
 
 .svefuter {
@@ -319,6 +502,24 @@
   .svefuter {
     display: block;
   }
+  .textslikarodj .prvi {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .textslikarodj .drugi {
+    width: 100%;
+    text-align: center;
+  }
+  .team1 .textslikarodj1 .prvi {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .team1 .textslikarodj1 .drugi {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 750px) {
@@ -333,11 +534,25 @@
     display: block;
     text-align: center;
   }
+  .onamasve {
+    display: block;
+  }
 }
 
 @media (max-width: 450px) {
+  .bgslika .logo img {
+    width: 180px;
+  }
+  .bgslika .header ul li a {
+    color: #f28b24;
+  }
   .bgslika .ptext h1 {
     font-size: 30px;
+    color: #fff;
+  }
+  .textslika1 {
+    width: 100%;
+    margin: 0px auto;
   }
   .textslika1 .prvi img {
     width: 100%;
