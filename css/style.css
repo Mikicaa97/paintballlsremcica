@@ -83,7 +83,7 @@
 
 .textslika {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .textslika h5 {
@@ -124,7 +124,7 @@
 }
 
 .infosve {
-  width: 90%;
+  width: 100%;
   margin: 0px auto;
   color: #fff;
   margin-top: 2%;
@@ -155,7 +155,7 @@
 .textslika1 {
   width: 80%;
   margin: 0px auto;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .textslika1 h5 {
@@ -600,6 +600,9 @@ form {
 }
 
 @media (max-width: 550px) {
+  .infosve {
+    margin-bottom: 7%;
+  }
   .header ul {
     display: block;
     text-align: center;

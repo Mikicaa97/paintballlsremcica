@@ -70,7 +70,7 @@
 //TEXTSLIKA
 .textslika{
     width: 100%;
-    margin-top: 5%;
+    margin-top: 3%;
     h5{
         color: #f28b24;
         font-size: 25px;
@@ -105,7 +105,7 @@
 //KRAJ TEXT SLIKE
 //O NAMA POCETAK
 .infosve{
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
     color: #fff;
     p{
@@ -132,7 +132,6 @@
 .textslika1{
     width: 80%;
     margin: 0px auto;
-    margin-top: 5%;
     h5{
         color: #f28b24;
         font-size: 25px;
@@ -167,6 +166,7 @@
             background-color: #fc6203;
         }
     }
+    margin-top: 3%;
 }
 //INFO
 .infosve1{
@@ -540,6 +540,9 @@ form{
     }
 }
 @media (max-width:550px){
+    .infosve{
+        margin-bottom: 7%;
+    }
     .header{
         ul{
             display: block;
