@@ -17,7 +17,37 @@
   background-color: #f19f40;
 }
 
+.loader_bg {
+  position: fixed;
+  z-index: 9999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader img {
+  width: 280px;
+}
+
 #popkont {
+  color: #fff;
   padding: 1%;
   width: 610px;
   height: 450px;
@@ -27,7 +57,8 @@
   right: 27%;
   position: fixed;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.877);
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
+  background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
 }
 
 #popkont #close {
@@ -63,7 +94,7 @@
   text-align: justify;
   margin-left: 10%;
   font-size: 24px;
-  color: #000;
+  color: #fff;
 }
 
 #popkont .link1 {
@@ -74,7 +105,7 @@
 
 #popkont .link1 p {
   text-align: justify;
-  color: #868686;
+  color: #fff;
 }
 
 #popkont .popimg {

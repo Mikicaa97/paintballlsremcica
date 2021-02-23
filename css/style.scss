@@ -10,8 +10,30 @@
     background-color: #f19f40; //ff8800
 }
 
+.loader_bg {
+    position: fixed;
+    z-index: 9999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.loader {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader img {
+    width: 280px;
+}
+
 //POP KONTAKT
 #popkont{
+    color: #fff;
     padding: 1%;
     width: 610px;
     height: 450px;
@@ -21,8 +43,9 @@
     right: 27%;
     position: fixed;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.877);
-    //background-image: url("../img/popup1.png");
+    // background-color: rgba(236, 202, 47, 0.877);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,183,26,1) 0%, rgba(255,122,26,1) 100%, rgba(255,195,26,1) 100%);
+    // background-image: url("../img/logo.jpg");
     #close{
         right: 5;
         top: 5;
@@ -49,7 +72,7 @@
             text-align: justify;
             margin-left: 10%;
             font-size: 24px;
-            color: #000;
+            color: #fff;
         }
     }
     .link1{
@@ -58,7 +81,7 @@
         font-size: 20px;
         p{
             text-align: justify;
-            color: #868686;
+            color: #fff;
         }
         //background-color: #709e65;
     }
