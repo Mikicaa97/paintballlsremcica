@@ -34,22 +34,17 @@
     </div>
         <div class="bgslika">
             <div class="header">
-                <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-            <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet"> -->
             <div class="logo">
-                <!--<a class="navbar-brand" href="index.html"><b>Code</b><span><b>House</b></span></a>-->
                 <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt="Logo"/></a>
               </div>
                 <ul class="nav nav-tabs">
                     <li class="nav-item">
-                      <a class="nav-link" href="index.html">Naslovna</a>
+                      <a class="nav-link" href="index.html">Početna</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="web.html" role="button" aria-haspopup="true" aria-expanded="false">Ponude</a>
                       <div class="dropdown-menu">
-                        <a class="dropdown-item" href="rodjendani.html">Deciji rodjendani</a>
+                        <!-- <a class="dropdown-item" href="galerija.html">Galerija</a> -->
                         <a class="dropdown-item" href="team.html">Teambuilding</a>
                         <a class="dropdown-item" href="airsoft.html">Airsoft</a>
                         <!--<div class="dropdown-divider"></div>
@@ -57,13 +52,16 @@
                       </div>
                     </li>
                     <li class="nav-item">
+                      <a class="nav-link" href="rodjendani.html">Dečiji rodjendani</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="cene.html" tabindex="-1" aria-disabled="true">Cene</a>
+                    </li>
+                    <li class="nav-item">
                       <a class="nav-link" href="blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="galerija.html">Galerija</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="cene.html" tabindex="-1" aria-disabled="true">Cene</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="kontakt.html" tabindex="-1" aria-disabled="true">Kontakt</a>
@@ -85,27 +83,7 @@
           
           <div class="tm-container-inner-2 tm-contact-section">
               <div class="row">
-                  <!-- <div class="col-md-6">
-                      <form action="" method="POST" class="tm-contact-form">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" placeholder="Trenutno Nije u Funkciji" required="" />
-                          </div>
-                          
-                          <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Trenutno Nije u Funkciji" required="" />
-                          </div>
-              
-                          <div class="form-group">
-                            <textarea rows="5" name="message" class="form-control" placeholder="Trenutno Nije u Funkciji" required=""></textarea>
-                          </div>
-                  
-                          <div class="form-group tm-d-flex">
-                            <button type="submit" class="tm-btn tm-btn-success tm-btn-right">
-                              Send
-                            </button>
-                          </div>
-                      </form>
-                  </div> -->
+
                   <div class="col-md-6">
                       <div class="tm-address-box">
                           <h4 class="tm-info-title tm-text-success">Nasa Adresa</h4>
@@ -125,6 +103,47 @@
                           </div>
                       </div>
                   </div>
+
+                  <div class="col-md-6">
+                      <form action="" method="POST" class="tm-contact-form">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Ime i Prezime" required="" />
+                          </div>
+                          
+                          <div class="form-group">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+                          </div>
+              
+                          <div class="form-group">
+                            <textarea rows="5" name="message" class="form-control" placeholder="Ovde upisati..." required=""></textarea>
+                          </div>
+                  
+                          <div class="form-group tm-d-flex">
+                            <button type="submit" class="tm-btn tm-btn-success tm-btn-right">
+                              Nije u funkciji
+                            </button>
+                          </div>
+                      </form>
+                  </div>
+                  <!-- <div class="col-md-6">
+                      <div class="tm-address-box">
+                          <h4 class="tm-info-title tm-text-success">Nasa Adresa</h4>
+                          <address>
+                             Radno vreme: Svakog dana od 10 do 22h<br/> Mijatovih njiva 21a<br/> nalazimo se treca ulica desno posle stadiona<br/>Zakazivanje termina samo putem poziva!
+                          </address>
+                          <a href="tel:+381 65/58-22-552" class="tm-contact-link">
+                              <i class="fa fa-phone tm-contact-icon"></i>+381 65/58-22-552
+                          </a>
+                          <a href="mailto:vlajkovic.1997@gmail.com" class="tm-contact-link">
+                              <i class="fa fa-envelope tm-contact-icon"></i>vlajkovic.1997@gmail.com
+                          </a>
+                          <div class="tm-contact-social">
+                              <a href="https://www.facebook.com/paintballsremcica/" class="tm-social-link"><i class="fa fa-facebook tm-social-icon"></i></a>
+                              <a href="#!" class="tm-social-link"><i class="fa fa-twitter tm-social-icon"></i></a>
+                              <a href="https://www.instagram.com/paintballsremcica/?hl=sr" class="tm-social-link"><i class="fa fa-instagram tm-social-icon"></i></a>
+                          </div>
+                      </div>
+                  </div> -->
               </div>
           </div>
           

@@ -46,79 +46,11 @@
   width: 280px;
 }
 
-#popkont {
-  color: #fff;
-  padding: 1%;
-  width: 610px;
-  height: 450px;
-  border: 2px solid #d1d1d1;
-  bottom: 50%;
-  top: 25%;
-  right: 27%;
-  position: fixed;
-  border-radius: 10px;
-  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
-  background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
-}
-
-#popkont #close {
-  right: 5;
-  top: 5;
-  float: right;
-}
-
-#popkont a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 20px;
-  float: right;
-  border: 1px solid #c2c2c2;
-  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
-  background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
-  border-radius: 5px;
-  padding: 1%;
-}
-
-#popkont a:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(0%, #ff9c1a), to(#ffca1a));
-  background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff9c1a 0%, #ffca1a 100%);
-}
-
-#popkont .kako {
-  text-align: center;
-  margin-top: -4%;
-  border-bottom: 1px solid #000;
-}
-
-#popkont .kako p {
-  text-align: justify;
-  margin-left: 10%;
-  font-size: 24px;
-  color: #fff;
-}
-
-#popkont .link1 {
-  text-align: center;
-  margin-top: 1%;
-  font-size: 20px;
-}
-
-#popkont .link1 p {
-  text-align: justify;
-  color: #fff;
-}
-
-#popkont .popimg {
-  text-align: center;
-  margin-top: 4%;
-  font-size: 70px;
-}
-
 .bgslika {
   background-image: url("../img/bgslika.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  min-height: 700px;
+  min-height: 650px;
   background-size: cover;
 }
 
@@ -177,7 +109,7 @@
 }
 
 .header ul {
-  background-color: rgba(104, 104, 104, 0.493);
+  background-color: rgba(104, 104, 104, 0.678);
   margin-top: 6%;
   padding: 1%;
 }
@@ -667,63 +599,6 @@ form {
 }
 
 @media (max-width: 1000px) {
-  #popkont {
-    padding: 1%;
-    width: 80%;
-    margin: 0px auto;
-    height: 420px;
-    border: 2px solid #d1d1d1;
-    bottom: 50%;
-    top: 37%;
-    right: 10%;
-    position: fixed;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.945);
-  }
-  #popkont #close {
-    right: 5;
-    top: 5;
-    float: right;
-  }
-  #popkont a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    float: right;
-    border: 1px solid #c2c2c2;
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
-    border-radius: 5px;
-    padding: 1%;
-  }
-  #popkont a:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(0%, #ff9c1a), to(#ffca1a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff9c1a 0%, #ffca1a 100%);
-  }
-  #popkont .kako {
-    text-align: center;
-    margin-top: -4%;
-    border-bottom: 1px solid #000;
-  }
-  #popkont .kako p {
-    margin-left: 10%;
-    font-size: 24px;
-    color: #000;
-  }
-  #popkont .link1 {
-    text-align: center;
-    margin-top: 1%;
-    font-size: 20px;
-  }
-  #popkont .link1 p {
-    text-align: justify;
-    color: #868686;
-  }
-  #popkont .popimg {
-    text-align: center;
-    margin-top: 4%;
-    font-size: 70px;
-  }
   .textslika .prvi {
     width: 100%;
     text-align: center;
@@ -775,66 +650,6 @@ form {
   }
 }
 
-@media (max-width: 620px) {
-  #popkont {
-    padding: 1%;
-    width: 95%;
-    margin: 0px auto;
-    height: 430px;
-    border: 2px solid #d1d1d1;
-    bottom: 50%;
-    top: 35%;
-    right: 2%;
-    position: fixed;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.945);
-  }
-  #popkont #close {
-    right: 5;
-    top: 5;
-    float: right;
-  }
-  #popkont a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    float: right;
-    border: 1px solid #c2c2c2;
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
-    border-radius: 5px;
-    padding: 1%;
-  }
-  #popkont a:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(0%, #ff9c1a), to(#ffca1a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff9c1a 0%, #ffca1a 100%);
-  }
-  #popkont .kako {
-    text-align: center;
-    margin-top: -4%;
-    border-bottom: 1px solid #000;
-  }
-  #popkont .kako p {
-    margin-left: 10%;
-    font-size: 24px;
-    color: #000;
-  }
-  #popkont .link1 {
-    text-align: center;
-    margin-top: 1%;
-    font-size: 18px;
-  }
-  #popkont .link1 p {
-    text-align: justify;
-    color: #868686;
-  }
-  #popkont .popimg {
-    text-align: center;
-    margin-top: 4%;
-    font-size: 70px;
-  }
-}
-
 @media (max-width: 550px) {
   .infosve {
     margin-bottom: 7%;
@@ -849,64 +664,6 @@ form {
 }
 
 @media (max-width: 450px) {
-  #popkont {
-    padding: 1%;
-    width: 90%;
-    margin: 0px auto;
-    height: 480px;
-    border: 2px solid #d1d1d1;
-    bottom: 50%;
-    top: 32%;
-    right: 4.5%;
-    position: fixed;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.945);
-  }
-  #popkont #close {
-    right: 5;
-    top: 5;
-    float: right;
-  }
-  #popkont a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 17px;
-    float: right;
-    border: 1px solid #c2c2c2;
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
-    border-radius: 5px;
-    padding: 1%;
-  }
-  #popkont a:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(0%, #ff9c1a), to(#ffca1a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff9c1a 0%, #ffca1a 100%);
-  }
-  #popkont .kako {
-    text-align: center;
-    margin-top: -4%;
-    border-bottom: 1px solid #000;
-  }
-  #popkont .kako p {
-    margin-left: 10%;
-    font-size: 14px;
-    color: #000;
-  }
-  #popkont .link1 {
-    text-align: center;
-    margin-top: 1%;
-    font-size: 20px;
-  }
-  #popkont .link1 p {
-    padding: 0%;
-    text-align: justify;
-    color: #868686;
-  }
-  #popkont .popimg {
-    text-align: center;
-    margin-top: 4%;
-    font-size: 70px;
-  }
   .bgslika .header ul li a {
     color: #f28b24;
   }
@@ -921,67 +678,6 @@ form {
   .textslika1 .prvi img {
     width: 100%;
     margin: 0px auto;
-  }
-}
-
-@media (max-width: 380px) {
-  #popkont {
-    padding: 1%;
-    width: 95%;
-    margin: 0px auto;
-    height: 355px;
-    border: 2px solid #d1d1d1;
-    bottom: 50%;
-    top: 36%;
-    right: 2.5%;
-    position: fixed;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.979);
-  }
-  #popkont #close {
-    right: 5;
-    top: 5;
-    float: right;
-  }
-  #popkont a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 14px;
-    float: right;
-    border: 1px solid #c2c2c2;
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(100%, #ff7a1a), to(#ffc31a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff7a1a 100%, #ffc31a 100%);
-    border-radius: 5px;
-    padding: 1%;
-  }
-  #popkont a:hover {
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(0%, #ffb71a), color-stop(0%, #ff9c1a), to(#ffca1a));
-    background: linear-gradient(90deg, #020024 0%, #ffb71a 0%, #ff9c1a 0%, #ffca1a 100%);
-  }
-  #popkont .kako {
-    text-align: center;
-    margin-top: -4%;
-    border-bottom: 1px solid #000;
-  }
-  #popkont .kako p {
-    margin-left: 15%;
-    font-size: 13px;
-    color: #000;
-  }
-  #popkont .link1 {
-    text-align: center;
-    margin-top: 1%;
-    font-size: 12px;
-  }
-  #popkont .link1 p {
-    padding: 0%;
-    text-align: justify;
-    color: #868686;
-  }
-  #popkont .popimg {
-    text-align: center;
-    margin-top: 4%;
-    font-size: 70px;
   }
 }
 
@@ -1130,14 +826,14 @@ html {
 }
 
 .tm-btn-success {
-  background-color: #111921;
+  background-color: #f28b24;
   /*fbe500   fbe500*/
   color: white;
 }
 
 .tm-btn-success:hover,
 .tm-btn-success:focus {
-  background-color: #1d6e46;
+  background-color: #fc6203;
 }
 
 .tm-btn-danger {
@@ -1159,7 +855,7 @@ html {
 }
 
 .tm-text-success {
-  color: #3b3b38;
+  color: #f28b24;
   /*fbe500*/
 }
 
@@ -1301,7 +997,7 @@ address {
 .tm-contact-icon {
   display: inline-block;
   margin-right: 25px;
-  color: #319966;
+  color: #fc6203;
 }
 
 .tm-contact-link {
