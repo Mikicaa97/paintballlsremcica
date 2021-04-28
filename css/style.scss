@@ -34,7 +34,7 @@
 }
 //SVE ZA HEADER
 .bgslika{
-    background-image:url("../img/bgslika.jpg");
+    background-image:url("../img/bgslika1.jpg");
 	background-attachment: fixed;
 	background-repeat:no-repeat;
 	min-height:650px;
@@ -129,29 +129,81 @@
 }
 //KRAJ TEXT SLIKE
 //O NAMA POCETAK
-.infosve{
-    width: 100%;
-    margin: 0px auto;
-    color: #fff;
-    p{
-        text-align: justify;
-    }
-    a{
-        background-color: #f28b24;
-        border: 1px solid #fff;
-    }
-    a:hover{
-        background-color: #fc6203;
-        border: 1px solid #c2c2c2;
-    }
-    div{
-        background-color: #f28b24;
-    }
-    margin-top: 2%;
-    h5{
-        font-size: 25px;
-    }
+// .infosve{
+//     width: 100%;
+//     margin: 0px auto;
+//     color: #fff;
+//     p{
+//         text-align: justify;
+//     }
+//     a{
+//         background-color: #f28b24;
+//         border: 1px solid #fff;
+//     }
+//     a:hover{
+//         background-color: #fc6203;
+//         border: 1px solid #c2c2c2;
+//     }
+//     div{
+//         background-color: #f28b24;
+//     }
+//     margin-top: 2%;
+//     h5{
+//         font-size: 25px;
+//     }
+// }
+
+
+/** We_are section **/
+.We_are {
+  padding-top: 90px;
+  background: #fff;
 }
+.box_bg {
+  background: #f28b24;
+  padding: 40px 0px 40px 65px;
+  margin-right: 101px;
+}
+.box_bg_img {
+  margin-right: -84px;
+  box-shadow: #c3c3c3 0px 0px 29px 4px;
+}
+.box_bg_img figure {
+ margin: 0;
+}
+.box_bg_img figure img {
+ width: 100%;
+}
+.border_right {
+ border-right: #f28b24 solid 6px;
+}
+.box_text {
+  max-width: 531px;
+  width: 100%;
+  padding: 25px 2px 2px 2px;
+}
+.box_text p {
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: right;
+  color: #181716;
+}
+.box_text a {
+  font-size: 16px;
+  border: #fff solid 1px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 39px;
+  display: inline-block;
+  margin-top: 11px;
+}
+.box_text a:hover {
+  background-color: #f28b24;
+  border: #f28b24 solid 1px;
+  color: #fff;
+}
+/** end We_are section **/
 //KRAJ O NAMA
 //POCETAK DRUGI DEO TEXT SLIKE
 .textslika1{
@@ -620,28 +672,7 @@ form{
     }
 }
 
-// kontakt strana nova
-
-ul, nav, body, h1, h2, h4, h6, p, figure {
-    margin: 0;
-    padding: 0;
-  }
-  
-  a, button { transition: all 0.3s ease; }
-  
-  /* Bootstrap grid system  */
-  
-  html {
-    box-sizing: border-box;
-    -ms-overflow-style: scrollbar;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-  
+// kontakt strana nova  
   .container {
     width: 100%;
     max-width: 1200px;
