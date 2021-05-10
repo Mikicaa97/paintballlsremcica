@@ -64,6 +64,13 @@
         }
     }
 }
+// .logo{
+//   margin-top: 2%;
+//         img{
+//           width: 250px;
+//           height: 250px;
+//         }
+// }
 .header{
     margin: 0px auto;
     width: 90%;
@@ -80,10 +87,15 @@
         color: #f28b24;
     }
     .logo{
-        margin-top: 2%;
+        margin-top: -1%;
+        img{
+          width: 250px;
+          height: 250px;
+        }
     }
     ul{
         background-color: rgba(104, 104, 104, 0.678);
+        margin-bottom: 17%;
         margin-top: 6%;
         padding: 1%;
     }

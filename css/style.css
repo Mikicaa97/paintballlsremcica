@@ -109,11 +109,17 @@
 }
 
 .header .logo {
-  margin-top: 2%;
+  margin-top: -1%;
+}
+
+.header .logo img {
+  width: 250px;
+  height: 250px;
 }
 
 .header ul {
   background-color: rgba(104, 104, 104, 0.678);
+  margin-bottom: 17%;
   margin-top: 6%;
   padding: 1%;
 }
