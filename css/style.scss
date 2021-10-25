@@ -71,6 +71,48 @@
 //           height: 250px;
 //         }
 // }
+
+// Gallery
+//--------------------------------------------------------------*/
+.gallery {
+  padding-bottom: 0;
+}
+.gallery .gallery-item {
+  overflow: hidden;
+  border-right: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+}
+.gallery .gallery-item img {
+  transition: all ease-in-out 0.4s;
+}
+.gallery .gallery-item:hover img {
+  transform: scale(1.1);
+}
+//tekst u galeriji
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #5f5950;
+}
+.section-title h2 span {
+  color: #f28b24;
+}
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 300;
+  font-size: 25px;
+}
+@media (min-width: 1024px) {
+  .section-title p {
+    width: 50%;
+  }
+}
+
 .header{
     margin: 0px auto;
     width: 90%;
@@ -344,124 +386,7 @@
         }
     }
 }
-//KRAJ TEXT SLIKE RODJ
-//POCETAK GALERIJA
-/*Galerija*/
-.wrapper{
-  min-height: 100vh;
-  padding: 10px;
-  max-width: 1100px;
-  width: 100%;
-  margin: 0 auto;
-}
-.wrapper .galerija{
-  display: flex;
-  flex-wrap: wrap;
-}
-.galerija span{
-display: flex;
-width: 100%;
-overflow: hidden;
-}
-.galerija .image{
-padding: 7px;
-width: calc(100% / 3);
-}
-.galerija .image img{
-width: 100%;
-vertical-align: middle;
-transition: all 0.3s ease;
-}
 
-// .galerija .image img{
-//   width: 750px;
-//   height: 400px;
-// }
-
-.galerija .image:hover img{
-transform: scale(1.1);
-}
-
-@media (max-width: 1000px){
-.galerija .image{
-  width: calc(100% / 2);
-}
-}
-@media (max-width: 600px){
-.galerija .image{
-  width: 100%;
-  padding: 4px;
-}
-}
-.preview-box{
-position: fixed;
-max-width: 550px;
-width: 100%;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%) scale(0.9);
-background: #fff;
-padding: 0 5px 5px 5px;
-border-radius: 3px;
-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-/* opacity: 0;
-pointer-events: none; */
-}
-.preview-box.show{
-opacity: 1;
-pointer-events: auto;
-transform: translate(-50%, -50%) scale(1);
-transition: all 0.3s ease;
-}
-.preview-box .details{
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 12px 15px 12px 10px;
-}
-.preview-box .details .icon{
-color: #fbc907;
-cursor: pointer;
-font-size: 20px;
-}
-.details .title{
-display: flex;
-font-size: 18px;
-font-weight: 400;
-}
-.details .title p{
-margin: 0 5px;
-}
-.details .title p.curent-img{
-font-weight: 500;
-}
-.preview-box .img-box{
-display: flex;
-width: 100%;
-}
-.preview-box .img-box img{
-width: 100%;
-border-radius: 0 0 3px 3px;
-}
-.img-box .slide{
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-font-size: 30px;
-cursor: pointer;
-color: #fbc907;
-width: 60px;
-height: 50px;
-line-height: 50px;
-text-align: center;
-}
-.img-box .slide.prev{
-left: 0;
-}
-.img-box .slide.next{
-right: 0;
-}
-//KRAJ GALERIJA
 //STRANA TEAMBUIDLING
 .team1{
     background-image:url("../img/team4.jpg");
