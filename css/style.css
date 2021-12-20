@@ -227,15 +227,17 @@
   padding-top: 90px;
   background: #fff;
 }
-
+.We_are .titlepage h2{
+  font-size: 23px;
+}
 .box_bg {
-  background: #f28b24;
+  background: #383634;
   padding: 40px 0px 40px 65px;
   margin-right: 101px;
 }
 
 .box_bg_img {
-  margin-right: -84px;
+  margin-right: -100px;
   -webkit-box-shadow: #c3c3c3 0px 0px 29px 4px;
           box-shadow: #c3c3c3 0px 0px 29px 4px;
 }
